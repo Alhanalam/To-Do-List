@@ -37,7 +37,7 @@ function saveData(){
 //showing the saved data when browser in reopened
 
 function showTask(){
-    listContainer.innerHTML = localStorage.setItem("data");
+    listContainer.innerHTML = localStorage.getItem("data");
 }
 
 showTask();
